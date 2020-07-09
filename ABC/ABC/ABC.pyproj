@@ -4,7 +4,7 @@
     <SchemaVersion>2.0</SchemaVersion>
     <ProjectGuid>c00d55a4-50fc-40d7-872c-4f8371d1bf76</ProjectGuid>
     <ProjectHome>.</ProjectHome>
-    <StartupFile>016\A.py</StartupFile>
+    <StartupFile>101\A.py</StartupFile>
     <SearchPath>
     </SearchPath>
     <WorkingDirectory>.</WorkingDirectory>
@@ -24,10 +24,29 @@
     <Compile Include="016\A.py">
       <SubType>Code</SubType>
     </Compile>
-    <Compile Include="ABC.py" />
+    <Compile Include="101\A.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="103\A.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="104\A.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="105\A.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="115\A.py">
+      <SubType>Code</SubType>
+    </Compile>
   </ItemGroup>
   <ItemGroup>
     <Folder Include="016\" />
+    <Folder Include="115\" />
+    <Folder Include="105\" />
+    <Folder Include="104\" />
+    <Folder Include="103\" />
+    <Folder Include="101\" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\Python Tools\Microsoft.PythonTools.targets" />
   <!-- Uncomment the CoreCompile target to enable the Build command in
