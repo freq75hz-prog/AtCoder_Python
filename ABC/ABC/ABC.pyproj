@@ -4,7 +4,7 @@
     <SchemaVersion>2.0</SchemaVersion>
     <ProjectGuid>c00d55a4-50fc-40d7-872c-4f8371d1bf76</ProjectGuid>
     <ProjectHome>.</ProjectHome>
-    <StartupFile>083\A.py</StartupFile>
+    <StartupFile>086\A.py</StartupFile>
     <SearchPath>
     </SearchPath>
     <WorkingDirectory>.</WorkingDirectory>
@@ -25,6 +25,9 @@
       <SubType>Code</SubType>
     </Compile>
     <Compile Include="083\A.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="086\A.py">
       <SubType>Code</SubType>
     </Compile>
     <Compile Include="099\A.py">
